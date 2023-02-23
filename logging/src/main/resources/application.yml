@@ -1,0 +1,13 @@
+my.custom.env:
+  num1: 2
+  num2: 8
+
+logging:
+  level:
+    root: info
+    com.example.demo: debug
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) [%thread] %cyan(%logger{15}) - %msg%n"
+  file:
+    name: myCustomLogs/demo.log
+
